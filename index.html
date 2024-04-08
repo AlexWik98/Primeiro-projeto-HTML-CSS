@@ -15,13 +15,13 @@
             <h1>New Game Shop</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Sobre a loja</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#about">Sobre a loja</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
             <img class="store-front" src="./imagens/loja.jpg" alt="Fachada da loja New Game Shop" />
             <div>
@@ -36,5 +36,38 @@
             </div>
         </div>
     </section>
+    <section id="contact">
+        <div class="container">
+        <h2>Contato</h2>
+        <div class="contact-methods">
+            <div>
+                <h3>Fale conosco</h3>
+                <form>
+                    <input type="text" placeholder="Seu nome"required/>
+                    <input type="email" placeholder="Seu e-mail"required/>
+                    <input type="tel" placeholder="Seu telefone (Opcional)"/>
+                    <textarea placeholder="Sua mensagem"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <h3>Nos acompanhe</h3>
+                <ul class="social-links">
+                    <li><a href="#" title="Siga-nos no Instagram"></a><img src="./imagens/instagram.png" alt="Logo Instagram"></li>
+                    <li><a href="#" title="Siga-nos no Facebook"></a><img src="./imagens/facebook.png" alt="Logo Facebook"></li>
+                    <li><a href="#" title="Visite nosso canal no Youtube"></a><img src="./imagens/youtube.png" alt="Logo Youtube"></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Venha até nos</h3>
+                <p>Rua Java, n 123, Vila HTML, RS</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; New Game Shop - Todos os direitos reservados - 2024</p>
+        </div>
+    </footer>
 </body>
 </html>
